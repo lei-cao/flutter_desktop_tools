@@ -107,7 +107,7 @@ class DesktopTools with WidgetsBindingObserver {
     required String title,
     required String iconPath,
     required String windowsIconPath,
-    required List<MenuItem> items,
+    required List<MenuItemBase> items,
     String? tooltip,
     FutureOr<void> Function(SystemTrayEvent event, SystemTray tray)? onEvent,
   }) async {
